@@ -13,7 +13,7 @@
 
         <asp:Label ID="Label2" runat="server" Text="Main text:"></asp:Label>
      
-         <asp:TextBox ID="textPost" runat="server" CssClass="form-control"></asp:TextBox><br />
+         <asp:TextBox ID="textPost" runat="server" CssClass="form-control" Height="70px" Width="200px"></asp:TextBox><br />
         </div>
         <asp:Button ID="postPost" runat="server" Text="Add post" OnClick="AddPost"  CssClass="btn btn-primary"  />
     </div>
